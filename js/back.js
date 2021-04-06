@@ -96,3 +96,4 @@ const accionCerrarSesion = () => {
     `
     const btnCerrar = document.querySelector('#btnCerrar')
     btnCerrar.addEventListener('click', () => firebase.auth().signOut())
+}
